@@ -14,6 +14,7 @@
 		87D9EE0D1B4BF22700FDA123 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D9EE0C1B4BF22700FDA123 /* Images.xcassets */; };
 		87D9EE101B4BF22700FDA123 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D9EE0E1B4BF22700FDA123 /* LaunchScreen.xib */; };
 		87D9EE1C1B4BF22700FDA123 /* Sample_UIScrollView_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D9EE1B1B4BF22700FDA123 /* Sample_UIScrollView_2Tests.m */; };
+		87E947D01C995F610075D325 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E947CF1C995F610075D325 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		87D9EE151B4BF22700FDA123 /* Sample_UIScrollView_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_UIScrollView_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D9EE1A1B4BF22700FDA123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87D9EE1B1B4BF22700FDA123 /* Sample_UIScrollView_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample_UIScrollView_2Tests.m; sourceTree = "<group>"; };
+		87E947CE1C995F610075D325 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		87E947CF1C995F610075D325 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				87D9EE041B4BF22700FDA123 /* AppDelegate.m */,
 				87D9EE061B4BF22700FDA123 /* ViewController.h */,
 				87D9EE071B4BF22700FDA123 /* ViewController.m */,
+				87E947CE1C995F610075D325 /* Test.h */,
+				87E947CF1C995F610075D325 /* Test.m */,
 				87D9EE091B4BF22700FDA123 /* Main.storyboard */,
 				87D9EE0C1B4BF22700FDA123 /* Images.xcassets */,
 				87D9EE0E1B4BF22700FDA123 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87D9EE081B4BF22700FDA123 /* ViewController.m in Sources */,
+				87E947D01C995F610075D325 /* Test.m in Sources */,
 				87D9EE051B4BF22700FDA123 /* AppDelegate.m in Sources */,
 				87D9EE021B4BF22700FDA123 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				87D9EE211B4BF22700FDA123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87D9EE221B4BF22700FDA123 /* Build configuration list for PBXNativeTarget "Sample_UIScrollView_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				87D9EE241B4BF22700FDA123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
